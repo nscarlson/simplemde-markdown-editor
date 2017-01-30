@@ -1187,6 +1187,13 @@ var toolbarBuiltInButtons = {
 		title: "Numbered List",
 		default: true
 	},
+	"task-list": {
+		name: "task-list",
+		action: toggleOrderedList,
+		className: "fa fa-check-square-o",
+		title: "Task List",
+		default: true
+	},
 	"clean-block": {
 		name: "clean-block",
 		action: cleanBlock,
